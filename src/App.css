@@ -15,34 +15,74 @@ svg {
   height: 30px;
 }
 .App {
-  background-color: #ADD8E6;
+  background-color: white;
 }
 
-
-.Phone-photo{
-  opacity: 1;
+.Phone-photo {
+  background-color: transparent;
   width: 150px;
   height: 150px;
-
 }
 
-.moshoreba{
-  background-color: #ADD8E6 ;
-  color: #296E85;
+.moshoreba {
+  background-color: white;
+  color: #48bee8;
   border: none;
-  
 }
 
-.mtelitelefoni{
+.mtelitelefoni {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
-.sheni-chanta{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.sheni-chanta {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mteliyuti {
+  margin-left: 30%;
+}
+
+.fasi {
+  color: #296e85;
+}
+
+.total-cost{
+  border-top: 3px solid #296e85;
+  margin-top: 50px;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+}
+
+.total-text{
+  font-family: monospace;
+  font-size: x-large;
+}
+.fuli{
+  font-family: monospace;
+  font-size: x-large ;
+}
+
+.counter-container{
+  display: block;
+  align-items: end;
+  justify-content: flex-end;
+  margin-left: 490px;
+  
+}
+
+
+.momateba{
+  border: none;
+  background-color: white;
+
 }
